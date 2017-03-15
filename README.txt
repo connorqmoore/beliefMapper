@@ -1,0 +1,33 @@
+Project motivation:
+
+----------------------------------------------------
+Big problem in how other people criticize and understand each others ideas.
+People focus on the end claim and not on the roots of the argument.
+It is easy to lose track of your own logical consistency when developing your own ideas.
+
+Solution:
+
+----------------------------------------------------
+Generate a graph consisting of facts, and statements that illustrate an argument. 
+Each statement and fact has some sort of confidence property.
+Each sub-statement and fact has a relationship to its corresponding parent node at some relevance property.
+Each fact has evidence supporting it.
+A formula is used to calculate how well the root node is supported based off of its relationships.
+Generate a graph consisting of facts, and statements that illustrate an argument. 
+
+Directories:
+
+----------------------------------------------------
+D3: Graphical representation of argument using D3
+React: React component
+App: Node app with persistent arguments
+Notes: Notes explaining tradeoffs and decisions
+
+Setup:
+
+-----------------------------------------------------
+Basic_Graph
+
+Set an environment variable to your password like so:
+export NEO4JBMUSR=neo4j 
+export NEO4JBMPSWD=neo4j 

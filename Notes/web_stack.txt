@@ -1,0 +1,4 @@
+In order for this project to be successful the interface must be as simple as possible.
+It is important to have async behavior to construct the graph in an efficent way.
+  *if a user wants to make a statement it is important he can view other peoples related statements easily
+
