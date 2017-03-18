@@ -31,3 +31,17 @@ Basic_Graph
 Set an environment variable to your password like so:
 export NEO4JBMUSR=neo4j 
 export NEO4JBMPSWD=neo4j 
+
+React
+
+Template: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#using-a-custom-theme
+
+Configuration:
+
+-----------------------------------------------------
+Node
+
+http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager
+
+Docker
+https://medium.com/@McMenemy/react-docker-for-development-and-production-6cb50a1218c5#.86hzio3c6
