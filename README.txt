@@ -45,3 +45,6 @@ http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-ma
 
 Docker
 https://medium.com/@McMenemy/react-docker-for-development-and-production-6cb50a1218c5#.86hzio3c6
+
+Express functionality
+https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/
