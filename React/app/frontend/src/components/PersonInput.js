@@ -7,28 +7,24 @@ class PersonInput extends Component {
     }
 
     onAddPersonClick() {
-        const firstNameElement = document.getElementById('firstname');
         const lastNameElement = document.getElementById('lastname');
 
         this.props.addPerson({
-            firstname: firstNameElement.value,
             lastname: lastNameElement.value
         });
 
-        firstNameElement.value = "";
         lastNameElement.value = "";
 
-        firstNameElement.focus();
+        lastNameElement.focus();
     }
 
     componentDidMount() {
-        document.getElementById('firstname').focus();
+        document.getElementById('lastname').focus();
     }
 
     render() {
         return (
             <div>
-                <input id="firstname" type="text" placeholder="First Name" />
                 <input id="lastname" type="text" placeholder="Last Name" />
                 <button onClick={this.onAddPersonClick}>Add Person</button>
             </div>
