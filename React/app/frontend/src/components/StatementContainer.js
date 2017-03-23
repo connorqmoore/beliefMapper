@@ -17,7 +17,7 @@ import StatementInput from './StatementInput';
           const {statements} = this.props;
           return (
               <div>
-                  <StatementInput addStatement={this.props.actions.addStatement} />
+                  <StatementInput addStatement={this.props.actions.addProStatement} />
                   <StatementList statements={statements} />
               </div>
           );
