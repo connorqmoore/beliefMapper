@@ -1,15 +1,15 @@
 import React, {PropTypes, Component} from 'react';
 
-class PersonInput extends Component {
+class StatementInput extends Component {
     constructor(props) {
         super(props);
-        this.onAddPersonClick = this.onAddPersonClick.bind(this);
+        this.onAddStatementClick = this.onAddStatementClick.bind(this);
     }
 
-    onAddPersonClick() {
+    onAddStatementClick() {
         const lastNameElement = document.getElementById('lastname');
 
-        this.props.addPerson({
+        this.props.addStatement({
             lastname: lastNameElement.value
         });
 
@@ -26,14 +26,14 @@ class PersonInput extends Component {
         return (
             <div>
                 <input id="lastname" type="text" placeholder="Last Name" />
-                <button onClick={this.onAddPersonClick}>Add Person</button>
+                <button onClick={this.onAddStatementClick}>Add Statement</button>
             </div>
         );
     }
 }
 
-PersonInput.propTypes = {
-    addPerson: PropTypes.func.isRequired
+StatementInput.propTypes = {
+    addStatement: PropTypes.func.isRequired
 };
 
-export default PersonInput;
+export default StatementInput;

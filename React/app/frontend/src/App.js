@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PeopleContainer from './components/PeopleContainer';
+import StatementContainer from './components/StatementContainer';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <PeopleContainer />
+        <StatementContainer />
       </div>
     );
   }
