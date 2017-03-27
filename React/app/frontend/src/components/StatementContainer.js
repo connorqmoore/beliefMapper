@@ -6,12 +6,6 @@ import StatementList from './StatementList';
 import StatementInput from './StatementInput';
 
     class StatementContainer extends Component {
-        // constructor(props) {
-        //     super(props);
-        //     this.state = {
-        //         people: []
-        //     };
-        // }
 
       render() {
           const {statements} = this.props;

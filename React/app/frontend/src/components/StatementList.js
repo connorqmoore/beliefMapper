@@ -5,7 +5,7 @@ const StatementList = ({statements}) => {
     return (
         <div>
         {statements.map((statement) =>
-            <Statement key={statement.lastname} statement={statement} />
+            <Statement key={statement.name} statement={statement} />
         )}
         </div>
     );

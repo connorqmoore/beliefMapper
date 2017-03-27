@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react';
 const Statement = ({statement}) => {
     return (
         <div>
-            {statement.lastname}
+            {statement.name}
         </div>
       );
     };

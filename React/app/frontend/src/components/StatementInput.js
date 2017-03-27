@@ -7,25 +7,25 @@ class StatementInput extends Component {
     }
 
     onAddStatementClick() {
-        const lastNameElement = document.getElementById('lastname');
+        const nameElement = document.getElementById('name');
 
         this.props.addStatement({
-            lastname: lastNameElement.value
+            name: nameElement.value
         });
 
-        lastNameElement.value = "";
+        nameElement.value = "";
 
-        lastNameElement.focus();
+        nameElement.focus();
     }
 
     componentDidMount() {
-        document.getElementById('lastname').focus();
+        document.getElementById('name').focus();
     }
 
     render() {
         return (
             <div>
-                <input id="lastname" type="text" placeholder="Last Name" />
+                <input id="name" type="text" placeholder="Name" />
                 <button onClick={this.onAddStatementClick}>Add Statement</button>
             </div>
         );
