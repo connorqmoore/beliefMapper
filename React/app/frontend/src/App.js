@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import StatementContainer from './components/StatementContainer';
-import Start from './components/Start';
-
 
 class App extends Component {
   render() {
@@ -17,8 +14,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        {/*<StatementContainer />*/}
-        <Start />
+          {this.props.children}
+
+
       </div>
     );
   }
