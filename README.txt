@@ -40,7 +40,6 @@ Configuration:
 
 -----------------------------------------------------
 Node
-
 http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager
 
 Docker
@@ -48,3 +47,6 @@ https://medium.com/@McMenemy/react-docker-for-development-and-production-6cb50a1
 
 Express functionality
 https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/
+
+Django Backend
+https://github.com/Seedstars/django-react-redux-base
