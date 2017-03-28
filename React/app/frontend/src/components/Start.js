@@ -4,14 +4,21 @@ import {bindActionCreators} from 'redux';
 import * as statementActions from '../actions/statement-actions';
 import StatementInput from './StatementInput';
 
+import {
+    Link
+} from 'react-router-dom';
+
 class Start extends Component {
 
     render() {
 
         return (
             <div>
-                <StatementInput addStatement={this.props.actions.addProStatement} />
+                <Link to="/temp">
+                    <StatementInput addStatement={this.props.actions.addProStatement} />
+                </Link>
             </div>
+
         );
     }
 }
@@ -20,12 +27,6 @@ Start.propTypes = {
     actions: PropTypes.object.isRequired
 };
 
-// function mapStateToProps(state, props) {
-//     return {
-//         statements: state.statements
-//     };
-// }
-
 function mapDispatchToProps(dispatch) {
     return {
         actions: bindActionCreators(statementActions, dispatch)
@@ -33,4 +34,3 @@ function mapDispatchToProps(dispatch) {
 }
 
 export default connect(null, mapDispatchToProps)(Start);
-// export default Start;

@@ -7,8 +7,12 @@ import Start from './components/Start';
 
 const Routes = (props) => (
     <Router {...props}>
-        <Route path="/" component={Start} />
-        <Route path="*" component={StatementContainer} />
+        <Route path="/" component={<App >
+            <Start />
+        </App>} />
+        <Route path="*" component={<App >
+            <StatementContainer />
+        </App>} />
     </Router>
 );
 
